@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Raw Kaggle M5 datasets (exceed GitHub 100MB limit; run download_m5.py to fetch)
+data/raw/
